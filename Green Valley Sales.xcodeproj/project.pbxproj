@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7E1CE5CF2D0DC01B00533531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1CE5B62D0DC01700533531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1CE5BD2D0DC01700533531;
+			remoteInfo = "Green Valley Sales";
+		};
+		7E1CE5D92D0DC01B00533531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1CE5B62D0DC01700533531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1CE5BD2D0DC01700533531;
+			remoteInfo = "Green Valley Sales";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E1CE5BE2D0DC01700533531 /* Green Valley Sales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Valley Sales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1CE5CE2D0DC01B00533531 /* Green Valley SalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green Valley SalesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1CE5D82D0DC01B00533531 /* Green Valley SalesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green Valley SalesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7E1CE5C02D0DC01700533531 /* Green Valley Sales */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Green Valley Sales";
+			sourceTree = "<group>";
+		};
+		7E1CE5D12D0DC01B00533531 /* Green Valley SalesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Green Valley SalesTests";
+			sourceTree = "<group>";
+		};
+		7E1CE5DB2D0DC01B00533531 /* Green Valley SalesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Green Valley SalesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1CE5BB2D0DC01700533531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1CE5CB2D0DC01B00533531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1CE5D52D0DC01B00533531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E1CE5B52D0DC01700533531 = {
+			isa = PBXGroup;
+			children = (
+				7E1CE5C02D0DC01700533531 /* Green Valley Sales */,
+				7E1CE5D12D0DC01B00533531 /* Green Valley SalesTests */,
+				7E1CE5DB2D0DC01B00533531 /* Green Valley SalesUITests */,
+				7E1CE5BF2D0DC01700533531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1CE5BF2D0DC01700533531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1CE5BE2D0DC01700533531 /* Green Valley Sales.app */,
+				7E1CE5CE2D0DC01B00533531 /* Green Valley SalesTests.xctest */,
+				7E1CE5D82D0DC01B00533531 /* Green Valley SalesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1CE5BD2D0DC01700533531 /* Green Valley Sales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1CE5E22D0DC01B00533531 /* Build configuration list for PBXNativeTarget "Green Valley Sales" */;
+			buildPhases = (
+				7E1CE5BA2D0DC01700533531 /* Sources */,
+				7E1CE5BB2D0DC01700533531 /* Frameworks */,
+				7E1CE5BC2D0DC01700533531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E1CE5C02D0DC01700533531 /* Green Valley Sales */,
+			);
+			name = "Green Valley Sales";
+			packageProductDependencies = (
+			);
+			productName = "Green Valley Sales";
+			productReference = 7E1CE5BE2D0DC01700533531 /* Green Valley Sales.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E1CE5CD2D0DC01B00533531 /* Green Valley SalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1CE5E52D0DC01B00533531 /* Build configuration list for PBXNativeTarget "Green Valley SalesTests" */;
+			buildPhases = (
+				7E1CE5CA2D0DC01B00533531 /* Sources */,
+				7E1CE5CB2D0DC01B00533531 /* Frameworks */,
+				7E1CE5CC2D0DC01B00533531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1CE5D02D0DC01B00533531 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E1CE5D12D0DC01B00533531 /* Green Valley SalesTests */,
+			);
+			name = "Green Valley SalesTests";
+			packageProductDependencies = (
+			);
+			productName = "Green Valley SalesTests";
+			productReference = 7E1CE5CE2D0DC01B00533531 /* Green Valley SalesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E1CE5D72D0DC01B00533531 /* Green Valley SalesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1CE5E82D0DC01B00533531 /* Build configuration list for PBXNativeTarget "Green Valley SalesUITests" */;
+			buildPhases = (
+				7E1CE5D42D0DC01B00533531 /* Sources */,
+				7E1CE5D52D0DC01B00533531 /* Frameworks */,
+				7E1CE5D62D0DC01B00533531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1CE5DA2D0DC01B00533531 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E1CE5DB2D0DC01B00533531 /* Green Valley SalesUITests */,
+			);
+			name = "Green Valley SalesUITests";
+			packageProductDependencies = (
+			);
+			productName = "Green Valley SalesUITests";
+			productReference = 7E1CE5D82D0DC01B00533531 /* Green Valley SalesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1CE5B62D0DC01700533531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7E1CE5BD2D0DC01700533531 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7E1CE5CD2D0DC01B00533531 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7E1CE5BD2D0DC01700533531;
+					};
+					7E1CE5D72D0DC01B00533531 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7E1CE5BD2D0DC01700533531;
+					};
+				};
+			};
+			buildConfigurationList = 7E1CE5B92D0DC01700533531 /* Build configuration list for PBXProject "Green Valley Sales" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E1CE5B52D0DC01700533531;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7E1CE5BF2D0DC01700533531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1CE5BD2D0DC01700533531 /* Green Valley Sales */,
+				7E1CE5CD2D0DC01B00533531 /* Green Valley SalesTests */,
+				7E1CE5D72D0DC01B00533531 /* Green Valley SalesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1CE5BC2D0DC01700533531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1CE5CC2D0DC01B00533531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1CE5D62D0DC01B00533531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1CE5BA2D0DC01700533531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1CE5CA2D0DC01B00533531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1CE5D42D0DC01B00533531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E1CE5D02D0DC01B00533531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1CE5BD2D0DC01700533531 /* Green Valley Sales */;
+			targetProxy = 7E1CE5CF2D0DC01B00533531 /* PBXContainerItemProxy */;
+		};
+		7E1CE5DA2D0DC01B00533531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1CE5BD2D0DC01700533531 /* Green Valley Sales */;
+			targetProxy = 7E1CE5D92D0DC01B00533531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E1CE5E02D0DC01B00533531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E1CE5E12D0DC01B00533531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1CE5E32D0DC01B00533531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Green Valley Sales/Preview Content\"";
+				DEVELOPMENT_TEAM = NZGSV4F3Y6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.theroofadvocate.Green-Valley-Sales";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E1CE5E42D0DC01B00533531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Green Valley Sales/Preview Content\"";
+				DEVELOPMENT_TEAM = NZGSV4F3Y6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.theroofadvocate.Green-Valley-Sales";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E1CE5E62D0DC01B00533531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZGSV4F3Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.theroofadvocate.Green-Valley-SalesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green Valley Sales.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Green Valley Sales";
+			};
+			name = Debug;
+		};
+		7E1CE5E72D0DC01B00533531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZGSV4F3Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.theroofadvocate.Green-Valley-SalesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green Valley Sales.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Green Valley Sales";
+			};
+			name = Release;
+		};
+		7E1CE5E92D0DC01B00533531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZGSV4F3Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.theroofadvocate.Green-Valley-SalesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Green Valley Sales";
+			};
+			name = Debug;
+		};
+		7E1CE5EA2D0DC01B00533531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZGSV4F3Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.theroofadvocate.Green-Valley-SalesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Green Valley Sales";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1CE5B92D0DC01700533531 /* Build configuration list for PBXProject "Green Valley Sales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1CE5E02D0DC01B00533531 /* Debug */,
+				7E1CE5E12D0DC01B00533531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1CE5E22D0DC01B00533531 /* Build configuration list for PBXNativeTarget "Green Valley Sales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1CE5E32D0DC01B00533531 /* Debug */,
+				7E1CE5E42D0DC01B00533531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1CE5E52D0DC01B00533531 /* Build configuration list for PBXNativeTarget "Green Valley SalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1CE5E62D0DC01B00533531 /* Debug */,
+				7E1CE5E72D0DC01B00533531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1CE5E82D0DC01B00533531 /* Build configuration list for PBXNativeTarget "Green Valley SalesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1CE5E92D0DC01B00533531 /* Debug */,
+				7E1CE5EA2D0DC01B00533531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E1CE5B62D0DC01700533531 /* Project object */;
+}
